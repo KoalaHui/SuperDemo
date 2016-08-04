@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abc_tab_text_normal">#212121</color>
+    <color name="abc_theme_black_7f">#7f000000</color>
+    <color name="abc_white">#ffffff</color>
+    <color name="bg_fragment">#FAFAFA</color>
+    <color name="black">#000000</color>
+    <color name="blue">#00c1e4</color>
+    <color name="brown">#35271e</color>
+    <color name="gray">#808080</color>
+    <color name="gray2">#777777</color>
+    <color name="gray4">#EEEEEE</color>
+    <color name="gre">#357505</color>
+    <color name="orange">#FF9900</color>
+    <color name="red">#c20202</color>
+    <color name="red2">#f45f5f</color>
+    <color name="red3">#ff6a00</color>
+    <color name="reds">#c53e4d</color>
+    <color name="snow">#c0c0c0</color>
+    <color name="tran">#00000000</color>
+    <color name="yellow">#FFDF04</color>
+    <declare-styleable name="TabStripView"><attr format="color|reference" name="navigateTabTextColor"/><attr format="color|reference" name="navigateTabSelectedTextColor"/><attr format="integer|reference" name="containerId"/><attr format="dimension|reference" name="navigateTabTextSize"/></declare-styleable>
+    <string name="app_name">Core</string>
+    <style name="Theme.No.ActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Swipe.Back" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="loading_dialog_style">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@color/abc_white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

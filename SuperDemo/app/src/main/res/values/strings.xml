@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SuperDemo</string>
+
+    <string name="abc_tab_text_home">首页</string>
+    <string name="abc_tab_text_image">图片</string>
+    <string name="abc_tab_text_movie">电影</string>
+    <string name="abc_tab_text_our">个人</string>
+</resources>
